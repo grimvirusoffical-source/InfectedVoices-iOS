@@ -1,2 +1,4 @@
 # InfectedVoices-iOS
-Infected Voices Cap iOS / App Store upload pipeline
+
+Capacitor iOS / App Store pipeline (iPhone/iPad; Mac = Open web or Designed for iPad).
+Consumes Core `build:web` dist. No raw IPA on marketing CDN.

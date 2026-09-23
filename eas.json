@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 16.18.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "production": {
+      "distribution": "store",
+      "autoIncrement": true,
+      "ios": {
+        "credentialsSource": "remote",
+        "image": "latest",
+        "scheme": "App",
+        "buildConfiguration": "Release"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6814856813",
+        "ascApiKeyPath": ".secrets/AuthKey_S3527PMRV3.p8",
+        "ascApiKeyId": "S3527PMRV3",
+        "ascApiKeyIssuerId": "af0c0450-10f2-4027-b34d-5356dfc53f5c"
+      }
+    }
+  }
+}

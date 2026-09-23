@@ -1,0 +1,16 @@
+{
+  "name": "infected-voices-ios",
+  "version": "0.7.0",
+  "private": true,
+  "description": "Infected Voices Cap iOS / App Store pipeline. Core is the parity source. Store-only App Store.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "prepare:ios": "node scripts/ios-pipeline.mjs prepare",
+    "sync:ios": "node scripts/ios-pipeline.mjs sync",
+    "sync": "node scripts/ios-pipeline.mjs sync",
+    "eas": "node scripts/ios-pipeline.mjs --eas",
+    "test": "node --test scripts/ios-pipeline.test.mjs"
+  }
+}

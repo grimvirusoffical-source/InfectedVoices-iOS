@@ -4,7 +4,7 @@ Capacitor iOS / App Store pipeline for iPhone and iPad. **Core is the parity sou
 
 ## Pin
 
-Core [`InfectedVoices`](https://github.com/grimvirusoffical-source/InfectedVoices) `main` at `2fb04c2ce1ac4e49ea9105207f436b8b6cf1d80d` (Cap PR #3, Stress PASS).
+Core [`InfectedVoices`](https://github.com/grimvirusoffical-source/InfectedVoices) `main` at `667ae1cb2edac499b773fb9f688b6b46484a558d` (hardened Core audio/build release).
 
 ```bash
 git submodule update --init

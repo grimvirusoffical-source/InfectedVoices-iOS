@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-export const CORE_PIN = '2fb04c2ce1ac4e49ea9105207f436b8b6cf1d80d';
+export const CORE_PIN = '667ae1cb2edac499b773fb9f688b6b46484a558d';
 export const CORE_REPO = 'https://github.com/grimvirusoffical-source/InfectedVoices.git';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
